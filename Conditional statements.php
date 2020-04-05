@@ -8,17 +8,7 @@ if ($a == $b) {
 }*/
 ?>
 
-<?php
-$a = 5;
-$b = 55;
-if ($a == $b) echo 'A equally B';
-elseif ($b != 6) echo 'equally';
-else echo 'inconsistency';
 
-//!=== проверка на соответствие типу оператор идентификации, быстрее.
-//!==
-// ! если это лож
-?>
 
 
 <?php
