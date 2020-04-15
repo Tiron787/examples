@@ -43,3 +43,10 @@ foreach ($it as $value) {
     var_dump($value);
 }
 ?>
+<?
+$product1 = new ShopProduct();
+$product1->title = "Собачье сердце";
+$product1->producerMainName = "Булгаков";
+$product1->producerFirstName = "Михаил";
+//Sproduct1->price = 5.99;
+?>
