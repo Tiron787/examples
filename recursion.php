@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 $a = 100;
 /* Далее идет функция, которая возвращает ссылку */
 function &s () {
@@ -10,9 +10,9 @@ function &s () {
 $b = &s();
 $b = 0;
 echo $a; // Выводит 0
-?>
+?> -->
 
-<?php
+<!-- <?php
 $phpver = phpversion();
 if ($phpver[0] === "5")
 {
@@ -26,5 +26,15 @@ if ($phpver[0] === "3")
 {
     function getversion() { return "Вы используете PHP3"; }
 }
-echo @getversion();
+echo getversion();
+?> -->
+
+<?php
+function recursion($a)
+{
+    if ($a < 20) {
+        echo "$a\n";
+        recursion($a + 1);
+    }
+}
 ?>
